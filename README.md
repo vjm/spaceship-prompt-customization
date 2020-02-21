@@ -1,8 +1,12 @@
 # spaceship-prompt-customization
 
 ```zsh
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 git clone https://github.com/vjm/spaceship-prompt-customization.git "$ZSH_CUSTOM/themes/spaceship-prompt-customization"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
+
+Set `ZSH_THEME="spaceship"` in your `.zshrc`.
 
 Add `source "${ZSH}/custom/themes/spaceship-prompt-customization/zshrc.sh"` in your `.zshrc`.
 
