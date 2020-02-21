@@ -9,13 +9,17 @@ SPACESHIP_PROMPT_ORDER=(
   git
   node
   ruby
-  xcode
-  swift
+  # xcode
+  # swift
   golang
   docker
   venv
   pyenv
+  vjm
 )
+
+# TIME
+SPACESHIP_TIME_SHOW="true"
 
 # USER
 SPACESHIP_USER_PREFIX="" # remove `with` before username
