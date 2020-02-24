@@ -20,6 +20,7 @@ SPACESHIP_PROMPT_ORDER=(
 
 # TIME
 SPACESHIP_TIME_SHOW="true"
+SPACESHIP_TIME_FORMAT="%W %*"
 
 # USER
 SPACESHIP_USER_PREFIX="" # remove `with` before username
