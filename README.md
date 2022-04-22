@@ -1,7 +1,7 @@
 # spaceship-prompt-customization
 
 ```zsh
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+git clone https://github.com/spaceship-prompt/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
 git clone https://github.com/vjm/spaceship-prompt-customization.git "$ZSH_CUSTOM/themes/spaceship-prompt-customization"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 ```
